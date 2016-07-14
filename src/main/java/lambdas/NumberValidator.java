@@ -1,4 +1,4 @@
-package main.java.lambdas;
+package lambdas;
 
 import java.io.*;
 
@@ -14,7 +14,7 @@ public class NumberValidator {
     }
 
     public static void main(String... args) {
-        NumberValidator numberValidator = new NumberValidator(new BufferedReader(new InputStreamReader(System.in)),
+        NumberValidator numberValidator = new NumberValidator(new InputStreamReader(System.in),
                 new OutputStreamWriter(System.out));
         runApp(numberValidator);
     }

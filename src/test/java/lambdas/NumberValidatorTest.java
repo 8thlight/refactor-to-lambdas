@@ -1,6 +1,5 @@
-package test.java.lambdas;
+package lambdas;
 
-import main.java.lambdas.NumberValidator;
 import org.junit.Test;
 
 import java.io.*;
