@@ -1,6 +1,20 @@
 
 apply plugin: 'java'
 
+jar {
+    manifest {
+        attributes 'Main-Class': 'lambdas.NumberValidator'
+    }
+}
+
+apply plugin: 'application'
+
+mainClassName = "lambdas.NumberValidator"
+
+run {
+    standardInput = System.in
+}
+
 repositories {
     jcenter()
 }

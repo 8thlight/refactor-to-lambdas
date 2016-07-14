@@ -10,8 +10,8 @@ Refactor the code so that the duplication is removed by the use of lambdas.
 
 ### Set up
 
-This is a gradle project and can be imported into IntelliJ or built using the command line.
+This is a gradle project and can be imported into an IDE or built using the command line.
 
 ### Tests
 
-All tests can be run through IntelliJ or on the command line with the command `gradle test`
+All tests can be run through an IDE or on the command line with the command `gradle test`
