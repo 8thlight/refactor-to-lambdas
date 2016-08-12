@@ -10,7 +10,7 @@ import static org.junit.Assert.assertTrue;
 
 public class NumberValidatorTest {
 
-    private static final String MENU_PROMPT = "Please choose:\n(1) Validate number is between 0 and 100\n(2) Exit\n";
+    private static final String MENU_PROMPT = "Please choose:\n(1) Validate number\n(2) Exit\n";
     private static final String NOT_A_VALID_MENU_OPTION = "Not a valid menu option!\n";
     private static final String NUMBER_PROMPT = "Please enter a number:\n";
     private static final String NOT_A_NUMBER = "Not a number!\n";

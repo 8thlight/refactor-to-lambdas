@@ -47,7 +47,7 @@ public class NumberValidator {
     }
 
     private void promptForMenuChoice() {
-        write("Please choose:\n(1) Validate number is between 0 and 100\n(2) Exit");
+        write("Please choose:\n(1) Validate number\n(2) Exit");
     }
 
     private void write(String message) {
